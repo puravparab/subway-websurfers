@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "Subway Websurfers",
+	"description": "Subway surfers on any website",
+	"version": "0.1.0",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "icons/icons50.png",
+		"32": "icons/icons50.png",
+		"48": "icons/icons50.png",
+		"128": "icons/icons150.png"
+	},
+	"background": {
+		"service_worker": "background.js",
+		"type": "module"
+	},
+	"content_scripts": [
+    {
+    	"matches": ["<all_urls>"],
+      "js": ["content.js"],
+			"type": "module"
+    }
+  ],
+	"permissions": ["tabs", "activeTab"]
+}
