@@ -1,6 +1,6 @@
 # Subway Websurfers
 
-Short attention span? Tired of your colleagues yapping on zoom? Are you a genz individual reading a long blog post? Try this browser extension that displays subway surfers on any website.
+Short attention span? Watching a boring lecture? Are you a genz individual reading a long blog post? Try this browser extension that displays subway surfers on any website.
 
 # Setup
 
